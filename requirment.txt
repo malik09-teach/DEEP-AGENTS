@@ -9,3 +9,4 @@ pdfplumber
 Flask
 python-dotenv
 Fastapi
+tavily-python
