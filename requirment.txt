@@ -10,3 +10,7 @@ Flask
 python-dotenv
 Fastapi
 tavily-python
+ipykernel
+langgraph-sdk
+langchain-experimental
+langchain-tavily
