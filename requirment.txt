@@ -14,3 +14,4 @@ ipykernel
 langgraph-sdk
 langchain-experimental
 langchain-tavily
+langchain-store
