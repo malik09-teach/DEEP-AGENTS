@@ -1,3 +1,130 @@
-.venv
+# ==============================================================================
+# Token Reducer & Token Budget Files (Local Utilities & Scripts)
+# ==============================================================================
+*token_reducer*
+*token-reducer*
+*tokenreducer*
+*token_reduce*
+*token-reduce*
+*token_budget*
+*token-budget*
+*tokenbudget*
+
+# ==============================================================================
+# Environment & Sensitive Credentials (API Keys, Secrets)
+# ==============================================================================
 .env
-__pycache__
+.env.*
+*.env
+*.local
+*.pem
+*.key
+*.cert
+*.secret
+
+# ==============================================================================
+# Virtual Environments & Package Managers
+# ==============================================================================
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.uv/
+
+# ==============================================================================
+# Python Cache & Bytecode
+# ==============================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ==============================================================================
+# Jupyter Notebooks & Checkpoints
+# ==============================================================================
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+.virtual_documents/
+
+# ==============================================================================
+# Financial Reports, SEC Filings & Large Data Files (10-K, 10-Q, PDFs, Datasets)
+# ==============================================================================
+*10-k*
+*10-K*
+*.10k
+*.10K
+*10-q*
+*10-Q*
+*.pdf
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.parquet
+*.feather
+*.jsonl
+*.zip
+*.tar.gz
+*.tar
+*.gz
+data/
+datasets/
+filings/
+sec_edgar/
+downloads/
+output/
+
+# ==============================================================================
+# Databases & Persistent Stores
+# ==============================================================================
+*.db
+*.sqlite
+*.sqlite3
+*.duckdb
+
+# ==============================================================================
+# Logs, Temp Files & Checkpoint Dumps
+# ==============================================================================
+*.log
+*.tmp
+*.bak
+*.swp
+*.cache
+todo.txt
+
+# ==============================================================================
+# IDEs & Operating System Junk
+# ==============================================================================
+.vscode/
+.idea/
+.cursor/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
