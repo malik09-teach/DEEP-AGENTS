@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  aegislab:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile.sandbox
+    volumes:
+      - .:/app
+    command: ["python", "-m", "aegislab"]
